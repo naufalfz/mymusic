@@ -8,6 +8,7 @@ module.exports = {
         body: '#28243D',
         primary: '#F7A701',
         secondary: '#FEF4CB',
+        textprim: '#C1C2C4',
       },
     },
   },
