@@ -9,6 +9,7 @@ module.exports = {
         primary: '#F7A701',
         secondary: '#FEF4CB',
         textprim: '#C1C2C4',
+        textdisable: '#3A3541',
       },
     },
   },

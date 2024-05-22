@@ -7,9 +7,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="output.css">
 </head>
-<body>
-    
-    
+<body class="bg-body">
 
 <nav class="fixed top-0 z-50 w-full bg-header border-b border-gray-200 dark:bg-gray-800 dark:border-gray-700">
     <div class="px-3 py-3 lg:px-5 lg:pl-3">
@@ -28,7 +26,7 @@
         </div>
         
         <!-- fitur search -->
-                <div class="relative text-gray-600">
+                <div class="relative text-white">
             <input type="search" name="serch" placeholder="Search Song, etc" class="bg-header h-10 px-6 pr-11 rounded-full text-sm focus:outline-none">
             <button type="submit" class="absolute right-0 top-0 mt-3 mr-5">
               <svg class="h-4 w-4 fill-current" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 56.966 56.966" style="enable-background:new 0 0 56.966 56.966;" xml:space="preserve" width="512px" height="512px">
@@ -36,6 +34,8 @@
               </svg>
             </button>
           </div>
+
+         
 
         <div class="flex items-center">
             <div class="flex items-center ms-3">
@@ -45,6 +45,7 @@
                   <img class="w-8 h-8 rounded" src="assets/Avatar.png" alt="user photo">
                 </button>
               </div>
+              
               <div class="z-50 hidden my-4 text-base list-none bg-white divide-y divide-gray-100 rounded shadow dark:bg-gray-700 dark:divide-gray-600" id="dropdown-user">
                 <div class="px-4 py-3" role="none">
                   <p class="text-sm text-gray-900 dark:text-white" role="none">
@@ -54,6 +55,7 @@
                     Jeni@harisenin.com
                   </p>
                 </div>
+                
                 <ul class="py-1" role="none">
                   <li>
                     <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-600 dark:hover:text-white" role="menuitem">My Profile</a>
@@ -76,7 +78,7 @@
   </nav>
   
   <aside id="logo-sidebar" class="fixed top-0 left-0 z-40 w-64 h-screen pt-20 transition-transform -translate-x-full bg-header border-r border-gray-200 sm:translate-x-0 dark:bg-gray-800 dark:border-gray-700" aria-label="Sidebar">
-     <div class="h-full px-3 pb-4 overflow-y-auto bg-header dark:bg-gray-800">
+     <div class="h-full  px-3 pb-4 overflow-y-auto bg-header dark:bg-gray-800">
         <ul class="space-y-2 font-medium">
             <li>
                 <span class="text-white">Menu</span>
@@ -187,122 +189,262 @@
       </ul>
      </div>
   </aside>
-
-  <div class="bg-body p-4 sm:ml-64">
-     <div class="p-4 border-gray-200 border-dashed rounded-lg dark:border-gray-700 mt-14">
-        <!-- <h1>Judul </h1> -->
-         <div class="grid grid-cols-4 gap-4 mb-4">
-           <div class="flex items-center justify-center h-24 rounded bg-gray-50 dark:bg-gray-800">
-              <p class="text-2xl text-gray-400 dark:text-gray-500">
-                 <svg class="w-3.5 h-3.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 18">
-                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 1v16M1 9h16"/>
-                 </svg>
-              </p>
-           </div>
-           <div class="flex items-center justify-center h-24 rounded bg-gray-50 dark:bg-gray-800">
-            <p class="text-2xl text-gray-400 dark:text-gray-500">
-               <svg class="w-3.5 h-3.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 18">
-                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 1v16M1 9h16"/>
-               </svg>
-            </p>
-         </div>
-           <div class="flex items-center justify-center h-24 rounded bg-gray-50 dark:bg-gray-800">
-              <p class="text-2xl text-gray-400 dark:text-gray-500">
-                 <svg class="w-3.5 h-3.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 18">
-                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 1v16M1 9h16"/>
-                 </svg>
-              </p>
-           </div>
-           <div class="flex items-center justify-center h-24 rounded bg-gray-50 dark:bg-gray-800">
-              <p class="text-2xl text-gray-400 dark:text-gray-500">
-                 <svg class="w-3.5 h-3.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 18">
-                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 1v16M1 9h16"/>
-                 </svg>
-              </p>
-           </div>
-        </div>
-        <div class="flex items-center justify-center h-48 mb-4 rounded bg-gray-50 dark:bg-gray-800">
-           <p class="text-2xl text-gray-400 dark:text-gray-500">
-              <svg class="w-3.5 h-3.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 18">
-                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 1v16M1 9h16"/>
-              </svg>
-           </p>
-        </div>
-        <div class="grid grid-cols-2 gap-4 mb-4">
-           <div class="flex items-center justify-center rounded bg-gray-50 h-28 dark:bg-gray-800">
-              <p class="text-2xl text-gray-400 dark:text-gray-500">
-                 <svg class="w-3.5 h-3.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 18">
-                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 1v16M1 9h16"/>
-                 </svg>
-              </p>
-           </div>
-           <div class="flex items-center justify-center rounded bg-gray-50 h-28 dark:bg-gray-800">
-              <p class="text-2xl text-gray-400 dark:text-gray-500">
-                 <svg class="w-3.5 h-3.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 18">
-                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 1v16M1 9h16"/>
-                 </svg>
-              </p>
-           </div>
-           <div class="flex items-center justify-center rounded bg-gray-50 h-28 dark:bg-gray-800">
-              <p class="text-2xl text-gray-400 dark:text-gray-500">
-                 <svg class="w-3.5 h-3.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 18">
-                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 1v16M1 9h16"/>
-                 </svg>
-              </p>
-           </div>
-           <div class="flex items-center justify-center rounded bg-gray-50 h-28 dark:bg-gray-800">
-              <p class="text-2xl text-gray-400 dark:text-gray-500">
-                 <svg class="w-3.5 h-3.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 18">
-                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 1v16M1 9h16"/>
-                 </svg>
-              </p>
-           </div>
-        </div>
-        <div class="flex items-center justify-center h-48 mb-4 rounded bg-gray-50 dark:bg-gray-800">
-           <p class="text-2xl text-gray-400 dark:text-gray-500">
-              <svg class="w-3.5 h-3.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 18">
-                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 1v16M1 9h16"/>
-              </svg>
-           </p>
-        </div>
-        <div class="grid grid-cols-2 gap-4">
-           <div class="flex items-center justify-center rounded bg-gray-50 h-28 dark:bg-gray-800">
-              <p class="text-2xl text-gray-400 dark:text-gray-500">
-                 <svg class="w-3.5 h-3.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 18">
-                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 1v16M1 9h16"/>
-                 </svg>
-              </p>
-           </div>
-           <div class="flex items-center justify-center rounded bg-gray-50 h-28 dark:bg-gray-800">
-              <p class="text-2xl text-gray-400 dark:text-gray-500">
-                 <svg class="w-3.5 h-3.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 18">
-                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 1v16M1 9h16"/>
-                 </svg>
-              </p>
-           </div>
-           <div class="flex items-center justify-center rounded bg-gray-50 h-28 dark:bg-gray-800">
-              <p class="text-2xl text-gray-400 dark:text-gray-500">
-                 <svg class="w-3.5 h-3.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 18">
-                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 1v16M1 9h16"/>
-                 </svg>
-              </p>
-           </div>
-           <div class="flex items-center justify-center rounded bg-gray-50 h-28 dark:bg-gray-800">
-              <p class="text-2xl text-gray-400 dark:text-gray-500">
-                 <svg class="w-3.5 h-3.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 18">
-                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 1v16M1 9h16"/>
-                 </svg>
-              </p>
-           </div>
-        </div>
-     </div>
-  </div>
   
+  <!-- <div class="p-8 mx-auto max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 justify-center">
+   <a href="#">
+       <img class="rounded-t-lg" src="/assets/frame1.png" alt="" />
+   </a>
+   <div class="p-2">
+       <a href="#">
+           <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
+       </a>
+       <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+       <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+           Read more
+            <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+               <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+           </svg>
+       </a>
+   </div>
+</div> -->
+<!-- 
+<div class="p-10 mt-32 max-w-xl mx-auto h-96 bg-slate-200 bg-contain bg-no-repeat bg-center rounded-2xl shadow-xl shadow-slate-500" style="background-image: url(./assets/frame1.png);">
+
+</div> -->
+<br>
+<br>
+<br>
+
+<!-- Reff https://tailwindflex.com/@noob_dev/products-card-grid -->
+<h5 class="text-center text-base text-2xl font-medium mt-3 font-serif font-bold text-primary text-md hover:text-white">Most Played Playlist</h5>
+
+<div class="p-1 flex flex-wrap items-center justify-center">
+
+   <div class="flex-shrink-0 m-6 relative overflow-hidden bg-purple-500 rounded-lg max-w-xs shadow-lg">
+       <svg class="absolute bottom-0 left-0 mb-8" viewBox="0 0 375 283" fill="none"
+           style="transform: scale(1.5); opacity: 0.1;">
+           <rect x="159.52" y="175" width="152" height="152" rx="8" transform="rotate(-45 159.52 175)" fill="white" />
+           <rect y="107.48" width="152" height="152" rx="8" transform="rotate(-45 0 107.48)" fill="white" />
+       </svg>
+       <div class="relative pt-10 px-10 flex items-center justify-center">
+           <div class="block absolute w-48 h-48 bottom-0 left-0 -mb-24 ml-3"
+               style="background: radial-gradient(black, transparent 60%); transform: rotate3d(0, 0, 1, 20deg) scale3d(1, 0.6, 1); opacity: 0.2;">
+           </div>
+           <img class="relative w-40" src="assets/frame1.png" alt="frame1">
+       </div>
+       <div class="relative text-white px-6 pb-6 mt-6">
+           <span class="block opacity-75 -mb-1">Judul</span>
+           <div class="flex justify-between">
+               <span class="block font-semibold text-xl">loremipsum</span>
+               <span class="block bg-white rounded-full text-orange-500 text-xs font-bold px-3 py-2 leading-none flex items-center">Play</span>
+           </div>
+       </div>
+   </div>
+   <div class="flex-shrink-0 m-6 relative overflow-hidden bg-purple-500 rounded-lg max-w-xs shadow-lg">
+       <svg class="absolute bottom-0 left-0 mb-8" viewBox="0 0 375 283" fill="none"
+           style="transform: scale(1.5); opacity: 0.1;">
+           <rect x="159.52" y="175" width="152" height="152" rx="8" transform="rotate(-45 159.52 175)" fill="white" />
+           <rect y="107.48" width="152" height="152" rx="8" transform="rotate(-45 0 107.48)" fill="white" />
+       </svg>
+       <div class="relative pt-10 px-10 flex items-center justify-center">
+           <div class="block absolute w-48 h-48 bottom-0 left-0 -mb-24 ml-3"
+               style="background: radial-gradient(black, transparent 60%); transform: rotate3d(0, 0, 1, 20deg) scale3d(1, 0.6, 1); opacity: 0.2;">
+           </div>
+           <img class="relative w-40" src="assets/frame2.png" alt="frame2">
+       </div>
+       <div class="relative text-white px-6 pb-6 mt-6">
+           <span class="block opacity-75 -mb-1">Judul</span>
+           <div class="flex justify-between">
+               <span class="block font-semibold text-xl">loremipsum</span>
+               <span class="block bg-white rounded-full text-orange-500 text-xs font-bold px-3 py-2 leading-none flex items-center">Play</span>
+           </div>
+       </div>
+   </div>
+   <div class="flex-shrink-0 m-6 relative overflow-hidden bg-purple-500 rounded-lg max-w-xs shadow-lg">
+       <svg class="absolute bottom-0 left-0 mb-8" viewBox="0 0 375 283" fill="none"
+           style="transform: scale(1.5); opacity: 0.1;">
+           <rect x="159.52" y="175" width="152" height="152" rx="8" transform="rotate(-45 159.52 175)" fill="white" />
+           <rect y="107.48" width="152" height="152" rx="8" transform="rotate(-45 0 107.48)" fill="white" />
+       </svg>
+       <div class="relative pt-10 px-10 flex items-center justify-center">
+           <div class="block absolute w-48 h-48 bottom-0 left-0 -mb-24 ml-3"
+               style="background: radial-gradient(black, transparent 60%); transform: rotate3d(0, 0, 1, 20deg) scale3d(1, 0.6, 1); opacity: 0.2;">
+           </div>
+           <img class="relative w-40" src="assets/frame3.png" alt="frame3">
+       </div>
+       <div class="relative text-white px-6 pb-6 mt-6">
+           <span class="block opacity-75 -mb-1">Judul</span>
+           <div class="flex justify-between">
+               <span class="block font-semibold text-xl">loremipsum</span>
+               <span class="block bg-white rounded-full text-orange-500 text-xs font-bold px-3 py-2 leading-none flex items-center">Play</span>
+           </div>
+       </div>
+   </div>
+
+   <div class="flex-shrink-0 m-6 relative overflow-hidden bg-purple-500 rounded-lg max-w-xs shadow-lg">
+       <svg class="absolute bottom-0 left-0 mb-8" viewBox="0 0 375 283" fill="none"
+           style="transform: scale(1.5); opacity: 0.1;">
+           <rect x="159.52" y="175" width="152" height="152" rx="8" transform="rotate(-45 159.52 175)" fill="white" />
+           <rect y="107.48" width="152" height="152" rx="8" transform="rotate(-45 0 107.48)" fill="white" />
+       </svg>
+       <div class="relative pt-10 px-10 flex items-center justify-center">
+           <div class="block absolute w-48 h-48 bottom-0 left-0 -mb-24 ml-3"
+               style="background: radial-gradient(black, transparent 60%); transform: rotate3d(0, 0, 1, 20deg) scale3d(1, 0.6, 1); opacity: 0.2;">
+           </div>
+           <img class="relative w-40" src="assets/frame4.png" alt="frame4">
+       </div>
+       <div class="relative text-white px-6 pb-6 mt-6">
+           <span class="block opacity-75 -mb-1">Judul</span>
+           <div class="flex justify-between">
+               <span class="block font-semibold text-xl">loremipsum</span>
+               <span class="block bg-white rounded-full text-orange-500 text-xs font-bold px-3 py-2 leading-none flex items-center">Play</span>
+           </div>
+       </div>
+   </div>
+
+   <div class="flex-shrink-0 m-6 relative overflow-hidden bg-purple-500 rounded-lg max-w-xs shadow-lg">
+       <svg class="absolute bottom-0 left-0 mb-8" viewBox="0 0 375 283" fill="none"
+           style="transform: scale(1.5); opacity: 0.1;">
+           <rect x="159.52" y="175" width="152" height="152" rx="8" transform="rotate(-45 159.52 175)" fill="white" />
+           <rect y="107.48" width="152" height="152" rx="8" transform="rotate(-45 0 107.48)" fill="white" />
+       </svg>
+       <div class="relative pt-10 px-10 flex items-center justify-center">
+           <div class="block absolute w-48 h-48 bottom-0 left-0 -mb-24 ml-3"
+               style="background: radial-gradient(black, transparent 60%); transform: rotate3d(0, 0, 1, 20deg) scale3d(1, 0.6, 1); opacity: 0.2;">
+           </div>
+           <img class="relative w-40" src="assets/frame5.png" alt="frame5">
+       </div>
+       <div class="relative text-white px-6 pb-6 mt-6">
+           <span class="block opacity-75 -mb-1">Judul</span>
+           <div class="flex justify-between">
+               <span class="block font-semibold text-xl">loremipsum</span>
+               <span class="block bg-white rounded-full text-orange-500 text-xs font-bold px-3 py-2 leading-none flex items-center">Play</span>
+           </div>
+       </div>
+   </div>
+</div>
+
+<!-- ALbums -->
+
+<h5 class="text-center text-base text-2xl font-medium mt-3 font-serif font-bold text-primary text-md hover:text-white">Most Played Albums</h5>
+
+<div class="p-1 flex flex-wrap items-center justify-center">
+
+   <div class="flex-shrink-0 m-6 relative overflow-hidden bg-purple-500 rounded-lg max-w-xs shadow-lg">
+       <svg class="absolute bottom-0 left-0 mb-8" viewBox="0 0 375 283" fill="none"
+           style="transform: scale(1.5); opacity: 0.1;">
+           <rect x="159.52" y="175" width="152" height="152" rx="8" transform="rotate(-45 159.52 175)" fill="white" />
+           <rect y="107.48" width="152" height="152" rx="8" transform="rotate(-45 0 107.48)" fill="white" />
+       </svg>
+       <div class="relative pt-10 px-10 flex items-center justify-center">
+           <div class="block absolute w-48 h-48 bottom-0 left-0 -mb-24 ml-3"
+               style="background: radial-gradient(black, transparent 60%); transform: rotate3d(0, 0, 1, 20deg) scale3d(1, 0.6, 1); opacity: 0.2;">
+           </div>
+           <img class="relative w-40" src="assets/frame2.1.png" alt="frame1">
+       </div>
+       <div class="relative text-white px-6 pb-6 mt-6">
+           <span class="block opacity-75 -mb-1">Judul</span>
+           <div class="flex justify-between">
+               <span class="block font-semibold text-xl">loremipsum</span>
+               <span class="block bg-white rounded-full text-orange-500 text-xs font-bold px-3 py-2 leading-none flex items-center">Play</span>
+           </div>
+       </div>
+   </div>
+   <div class="flex-shrink-0 m-6 relative overflow-hidden bg-purple-500 rounded-lg max-w-xs shadow-lg">
+       <svg class="absolute bottom-0 left-0 mb-8" viewBox="0 0 375 283" fill="none"
+           style="transform: scale(1.5); opacity: 0.1;">
+           <rect x="159.52" y="175" width="152" height="152" rx="8" transform="rotate(-45 159.52 175)" fill="white" />
+           <rect y="107.48" width="152" height="152" rx="8" transform="rotate(-45 0 107.48)" fill="white" />
+       </svg>
+       <div class="relative pt-10 px-10 flex items-center justify-center">
+           <div class="block absolute w-48 h-48 bottom-0 left-0 -mb-24 ml-3"
+               style="background: radial-gradient(black, transparent 60%); transform: rotate3d(0, 0, 1, 20deg) scale3d(1, 0.6, 1); opacity: 0.2;">
+           </div>
+           <img class="relative w-40" src="assets/frame2.2.png" alt="frame2">
+       </div>
+       <div class="relative text-white px-6 pb-6 mt-6">
+           <span class="block opacity-75 -mb-1">Judul</span>
+           <div class="flex justify-between">
+               <span class="block font-semibold text-xl">loremipsum</span>
+               <span class="block bg-white rounded-full text-orange-500 text-xs font-bold px-3 py-2 leading-none flex items-center">Play</span>
+           </div>
+       </div>
+   </div>
+   <div class="flex-shrink-0 m-6 relative overflow-hidden bg-purple-500 rounded-lg max-w-xs shadow-lg">
+       <svg class="absolute bottom-0 left-0 mb-8" viewBox="0 0 375 283" fill="none"
+           style="transform: scale(1.5); opacity: 0.1;">
+           <rect x="159.52" y="175" width="152" height="152" rx="8" transform="rotate(-45 159.52 175)" fill="white" />
+           <rect y="107.48" width="152" height="152" rx="8" transform="rotate(-45 0 107.48)" fill="white" />
+       </svg>
+       <div class="relative pt-10 px-10 flex items-center justify-center">
+           <div class="block absolute w-48 h-48 bottom-0 left-0 -mb-24 ml-3"
+               style="background: radial-gradient(black, transparent 60%); transform: rotate3d(0, 0, 1, 20deg) scale3d(1, 0.6, 1); opacity: 0.2;">
+           </div>
+           <img class="relative w-40" src="assets/frame2.3.png" alt="frame3">
+       </div>
+       <div class="relative text-white px-6 pb-6 mt-6">
+           <span class="block opacity-75 -mb-1">Judul</span>
+           <div class="flex justify-between">
+               <span class="block font-semibold text-xl">loremipsum</span>
+               <span class="block bg-white rounded-full text-orange-500 text-xs font-bold px-3 py-2 leading-none flex items-center">Play</span>
+           </div>
+       </div>
+   </div>
+
+   <div class="flex-shrink-0 m-6 relative overflow-hidden bg-purple-500 rounded-lg max-w-xs shadow-lg">
+       <svg class="absolute bottom-0 left-0 mb-8" viewBox="0 0 375 283" fill="none"
+           style="transform: scale(1.5); opacity: 0.1;">
+           <rect x="159.52" y="175" width="152" height="152" rx="8" transform="rotate(-45 159.52 175)" fill="white" />
+           <rect y="107.48" width="152" height="152" rx="8" transform="rotate(-45 0 107.48)" fill="white" />
+       </svg>
+       <div class="relative pt-10 px-10 flex items-center justify-center">
+           <div class="block absolute w-48 h-48 bottom-0 left-0 -mb-24 ml-3"
+               style="background: radial-gradient(black, transparent 60%); transform: rotate3d(0, 0, 1, 20deg) scale3d(1, 0.6, 1); opacity: 0.2;">
+           </div>
+           <img class="relative w-40" src="assets/frame2.4.png" alt="frame4">
+       </div>
+       <div class="relative text-white px-6 pb-6 mt-6">
+           <span class="block opacity-75 -mb-1">Judul</span>
+           <div class="flex justify-between">
+               <span class="block font-semibold text-xl">loremipsum</span>
+               <span class="block bg-white rounded-full text-orange-500 text-xs font-bold px-3 py-2 leading-none flex items-center">Play</span>
+           </div>
+       </div>
+   </div>
+
+   <div class="flex-shrink-0 m-6 relative overflow-hidden bg-purple-500 rounded-lg max-w-xs shadow-lg">
+       <svg class="absolute bottom-0 left-0 mb-8" viewBox="0 0 375 283" fill="none"
+           style="transform: scale(1.5); opacity: 0.1;">
+           <rect x="159.52" y="175" width="152" height="152" rx="8" transform="rotate(-45 159.52 175)" fill="white" />
+           <rect y="107.48" width="152" height="152" rx="8" transform="rotate(-45 0 107.48)" fill="white" />
+       </svg>
+       <div class="relative pt-10 px-10 flex items-center justify-center">
+           <div class="block absolute w-48 h-48 bottom-0 left-0 -mb-24 ml-3"
+               style="background: radial-gradient(black, transparent 60%); transform: rotate3d(0, 0, 1, 20deg) scale3d(1, 0.6, 1); opacity: 0.2;">
+           </div>
+           <img class="relative w-40" src="assets/frame2.5.png" alt="frame5">
+       </div>
+       <div class="relative text-white px-6 pb-6 mt-6">
+           <span class="block opacity-75 -mb-1">Judul</span>
+           <div class="flex justify-between">
+               <span class="block font-semibold text-xl">loremipsum</span>
+               <span class="block bg-white rounded-full text-orange-500 text-xs font-bold px-3 py-2 leading-none flex items-center">Play</span>
+           </div>
+       </div>
+   </div>
+</div>
+
+
+
+
+
+<h5 class="text-center text-base text-2xl font-medium mt-3 font-serif font-bold text-primary text-md hover:text-white">Section most played songs under constructions🚧</h5>
+<!-- <h5 class="text-center text-base text-2xl font-medium mt-3 font-serif font-bold text-primary text-md hover:text-white">Frequently Played Artists</h5> -->
+
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
 
     
-
 
    </body>
 </html>
