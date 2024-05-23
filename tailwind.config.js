@@ -11,6 +11,18 @@ module.exports = {
         textprim: '#C1C2C4',
         textdisable: '#3A3541',
       },
+      keyframes: {
+        wiggle: {
+          '0%, 100%': { transform: 'rotate(-3deg)' },
+          '50%': { transform: 'rotate(3deg)' },
+        },
+      },
+      animation: {
+        wiggle: 'wiggle 1s ease-in-out infinite',
+      },
+      fontFamily: {
+        montserrat: 'Montserrat',
+      },
     },
   },
   plugins: [],
